@@ -1,0 +1,126 @@
+/* Estilos generales */
+/* Etiquetas usadas: *
+   - *: Selector universal que aplica estilos a todos los elementos del documento. */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Estilo del cuerpo de la página */
+/* Etiqueta usada: body
+   - body: Define los estilos generales del cuerpo del documento, como el fondo, alineación y espaciado. */
+body {
+    background-color: #f4f7f6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Estilo del encabezado */
+/* Etiqueta usada: header
+   - header: Representa la cabecera del documento o una sección, generalmente contiene títulos o menús. */
+header {
+    margin-bottom: 20px;
+}
+
+/* Contenedor principal del formulario */
+/* Clase usada: .container
+   - .container: Clase que define un contenedor con fondo blanco, bordes redondeados y sombra. */
+.container {
+    background: #fff;
+    max-width: 500px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Estilo del fieldset */
+/* Etiqueta usada: fieldset
+   - fieldset: Agrupa elementos relacionados dentro de un formulario. */
+fieldset {
+    border: none;
+}
+
+/* Estilo del título del formulario */
+/* Etiqueta usada: legend
+   - legend: Proporciona un título o descripción para el contenido del fieldset. */
+legend {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* Estilo de los contenedores de entrada */
+/* Clase usada: .input-box
+   - .input-box: Clase que define el espaciado entre los campos de entrada del formulario. */
+.input-box {
+    margin-bottom: 20px;
+}
+
+/* Estilo de las etiquetas de los campos */
+/* Etiqueta usada: label
+   - label: Proporciona una descripción para un campo de entrada específico. */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #555;
+}
+
+/* Estilo de los campos de entrada */
+/* Etiqueta usada: input
+   - input: Define los estilos de los campos de entrada de texto, como tamaño, bordes y relleno. */
+input {
+    width: 100%;
+    height: 45px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+}
+
+/* Estilo de los campos de entrada al enfocarse */
+/* Etiqueta usada: input:focus
+   - input:focus: Aplica estilos cuando un campo de entrada está activo o seleccionado. */
+input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0,123,255,0.2);
+}
+
+/* Estilo del botón de envío */
+/* Clase usada: .btn-submit
+   - .btn-submit: Clase que define el estilo del botón de envío, como color, tamaño y bordes. */
+.btn-submit {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s;
+}
+
+/* Estilo del botón de envío al pasar el cursor */
+/* Clase usada: .btn-submit:hover
+   - .btn-submit:hover: Aplica estilos al botón cuando el cursor pasa sobre él. */
+.btn-submit:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo del pie de página */
+/* Etiqueta usada: footer
+   - footer: Representa el pie de página del documento o una sección. */
+footer {
+    margin-top: auto;
+    padding: 20px;
+    font-size: 0.8rem;
+    color: #777;
+}
